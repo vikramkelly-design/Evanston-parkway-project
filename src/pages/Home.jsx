@@ -45,8 +45,7 @@ export default function Home() {
             The Lake That<br />Feeds 30 Million
           </h1>
           <p className="hero__sub">
-            A chemical chain that starts on a residential lawn ends in the drinking water of the Midwest.
-            There is a solution.
+            Every time it rains on a treated Evanston lawn, pesticide washes into Lake Michigan. The city's water treatment barely touches it. Thirty million people drink from that lake.
           </p>
           <div className="hero__scroll-hint">
             <span />
@@ -77,12 +76,12 @@ export default function Home() {
         <RevealBlock>
           <p className="overline">The Problem</p>
           <h2 className="section-headline">
-            Evanston sits directly on the shore of Lake Michigan, the drinking water source for 30 million people across the Midwest.
+            Evanston's front yard drains into its drinking water.
           </h2>
         </RevealBlock>
         <RevealBlock delay={150}>
           <p className="body-text">
-            Every spring and summer, homeowners apply synthetic pesticides to their lawns containing imidacloprid, a neonicotinoid compound that dissolves almost completely into rainwater. That water flows through Evanston's storm sewer system directly into the lake with zero chemical treatment.
+            Every spring, homeowners across the city spray imidacloprid on their lawns. It's in most residential pesticides. Unlike a lot of chemicals, it doesn't bind to soil or break down when it rains — it dissolves completely and follows the water wherever it goes. In Evanston, that means straight through the storm sewers and into the lake.
           </p>
         </RevealBlock>
       </section>
@@ -100,12 +99,12 @@ export default function Home() {
           <RevealBlock delay={80}>
             <p className="overline">The Chemical Chain</p>
             <h2 className="section-headline--sm">
-              From lawn to tap, with nothing stopping it.
+              The treatment plant wasn't built to catch this.
             </h2>
           </RevealBlock>
           <RevealBlock delay={180}>
             <p className="body-text">
-              Standard municipal water treatment removes only 30–50% of imidacloprid, meaning measurable concentrations survive all the way to the tap. The EPA has flagged imidacloprid as a potential endocrine disruptor, a compound that mimics human hormones at parts-per-trillion concentrations, with children and developing fetuses carrying the highest effective dose per body weight.
+              Standard Evanston water treatment removes 30–50% of imidacloprid, resulting in a measurable amount of the toxin surviving all the way to the tap. The EPA has flagged the toxin as an endocrine disruptor, a compound that mimics human hormones at parts-per-trillion concentrations.
             </p>
           </RevealBlock>
         </div>
@@ -132,12 +131,12 @@ export default function Home() {
         <RevealBlock>
           <p className="overline overline--light">The Solution</p>
           <h2 className="section-headline section-headline--light">
-            Interrupt the chain before it starts.
+            There's a fix. It's low-tech and it's cheap.
           </h2>
         </RevealBlock>
         <RevealBlock delay={150}>
           <p className="body-text body-text--light">
-            By installing biochar-amended bioretention cells in the city-owned parkway strips that already exist between sidewalks and curbs throughout Evanston, pesticide-laden runoff from residential lawns is forced to percolate through a layer of biochar before it ever reaches the storm sewer.
+            The parkway strips between sidewalks and curbs throughout Evanston are already city-owned. Fill them with biochar instead of plain dirt, and runoff from the neighboring lawns has to pass through it before it ever reaches the storm sewer. That's the whole idea.
           </p>
         </RevealBlock>
       </section>
@@ -155,17 +154,12 @@ export default function Home() {
           <RevealBlock delay={80}>
             <p className="overline">Biochar</p>
             <h2 className="section-headline--sm">
-              A porous carbon lattice that pulls imidacloprid out of water permanently.
+              A porous carbon lattice that pulls imidacloprid out of water.
             </h2>
           </RevealBlock>
           <RevealBlock delay={180}>
             <p className="body-text">
-              Produced by pyrolysis of organic waste at 500–700°C, biochar develops up to 1,500 m²/g of surface area. Its graphene-like carbon layers trap imidacloprid molecules through π–π stacking interactions with greater than 97% removal efficiency. The filtered water drains cleanly into existing underground sewer infrastructure below.
-            </p>
-          </RevealBlock>
-          <RevealBlock delay={260}>
-            <p className="body-text">
-              After adsorption, soil microbes in the gravel underdrain complete biodegradation via oxidative metabolism, converting the compound entirely to CO₂, H₂O, NO₃⁻, and Cl⁻.
+              Biochar is the solution. It is a conglomerate of organic waste that is heated up to the 500–700°C mark. Its graphene-like carbon layers trap imidacloprid molecules through π–π stacking interactions with greater than 97% removal efficiency. The filtered water then drains downwards into the pre-existing sewage system below.
             </p>
           </RevealBlock>
         </div>
@@ -176,21 +170,21 @@ export default function Home() {
         <RevealBlock>
           <p className="overline">Why Evanston Can Do This</p>
           <h2 className="section-headline">
-            The city already owns the infrastructure.
+            The city already owns the land.
           </h2>
         </RevealBlock>
         <div className="feasibility-section__grid">
           <RevealBlock delay={0} className="feasibility-card">
-            <h3>Existing Parkways</h3>
-            <p>City-owned parkway strips between sidewalks and curbs provide ready-made installation sites, with no land acquisition required.</p>
+            <h3>Already There</h3>
+            <p>Those parkway strips are city property. No land to buy, no negotiations, no permits beyond the usual. The space is just sitting there.</p>
           </RevealBlock>
           <RevealBlock delay={100} className="feasibility-card">
-            <h3>Low Cost</h3>
-            <p>Biochar material costs less citywide per year than a single city employee's monthly salary.</p>
+            <h3>Cheaper Than You'd Think</h3>
+            <p>The biochar needed for the whole city costs less per year than one city employee's monthly paycheck.</p>
           </RevealBlock>
           <RevealBlock delay={200} className="feasibility-card">
-            <h3>Proven Chemistry</h3>
-            <p>π–π stacking adsorption of neonicotinoids onto biochar is thoroughly documented in peer-reviewed literature. This is not experimental.</p>
+            <h3>Settled Science</h3>
+            <p>The chemistry behind biochar removing neonicotinoids has been replicated across multiple peer-reviewed studies. We're not proposing an experiment.</p>
           </RevealBlock>
         </div>
       </section>
@@ -199,12 +193,12 @@ export default function Home() {
       <section className="closing-section">
         <RevealBlock>
           <h2 className="closing-section__headline">
-            The drinking water of 30 million people flows from the lake this solution protects.
+            Thirty million people get their drinking water from this lake. The city owns the land. The material is cheap. The chemistry works.
           </h2>
         </RevealBlock>
         <RevealBlock delay={150}>
           <p className="closing-section__sub">
-            The chemistry is understood. The land is available. The cost is minimal.
+            There's nothing left to figure out except whether anyone will do it.
           </p>
         </RevealBlock>
       </section>

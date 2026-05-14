@@ -17,10 +17,10 @@ export default function Idea() {
         <h1 className="idea-headline">The Idea</h1>
         <div className="idea-divider" />
         <p className="idea-body">
-          What began as a chemistry final project quickly grew into a mission for our community. After seeing the impact of imidacloprid contamination, a problem hiding in plain sight on every treated lawn in the city, we realized this wasn't just a classroom exercise. It's a challenge facing every Evanston neighbor, from our youngest children to our seniors. The chemistry gave us the answer. The question became whether anyone was willing to act on it.
+          3 Chemistry students from Evanston High School, who were working on a chemistry final, found a problem hiding in plain sight inside our community. This problem being harmful pesticides on our lawns washing into sewers and contaminating Lake Michigan water. After seeing the impact of imidacloprid contamination, we realized this was beyond a chemistry assignment. It is a problem facing everyone in our community.
         </p>
         <p className="idea-body">
-          We're now dedicated to finding affordable, science-backed ways to keep our city's water safe for everyone. The biochar solution costs less than it sounds, fits infrastructure the city already owns, and is grounded in well-documented chemistry. What it needs is attention and people willing to ask their city to take it seriously.
+          Our goal now is to develop affordable solutions that attack the problem at the source. Our leading science-backed solution is biochar, which can be implemented into already existing city infrastructure. Now what it truly needs is attention from people willing to take this problem seriously.
         </p>
         <div className="idea-footnote">
           Evanston, Illinois &mdash; 2025
