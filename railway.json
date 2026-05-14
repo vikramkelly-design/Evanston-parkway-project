@@ -5,7 +5,7 @@
     "buildCommand": "npm run build"
   },
   "deploy": {
-    "startCommand": "serve dist -l $PORT --config serve.json",
+    "startCommand": "serve -s dist -l $PORT",
     "restartPolicyType": "ON_FAILURE"
   }
 }
