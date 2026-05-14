@@ -58,6 +58,7 @@
 .chem-section {
   padding: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
   position: relative;
@@ -238,25 +239,35 @@
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .chemistry-hero {
-    padding: 80px 40px 70px;
+    padding: 80px 28px 60px;
   }
 
   .chemistry-hero::before {
     display: none;
   }
 
-  .chem-section__inner {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 80px 40px;
+  .chem-section {
     min-height: auto;
   }
 
-  .chem-section {
+  .chem-section__inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 72px 28px;
     min-height: auto;
   }
 
   .chem-section__number {
     font-size: 4rem;
+  }
+
+  .chem-equation {
+    font-size: 1rem;
+    padding: 18px 20px;
+    word-break: break-word;
+  }
+
+  .chem-callout {
+    padding: 16px 18px;
   }
 }

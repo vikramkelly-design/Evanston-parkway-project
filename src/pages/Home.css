@@ -14,7 +14,8 @@
 .hero {
   position: relative;
   height: 100vh;
-  min-height: 640px;
+  height: 100dvh;
+  min-height: 600px;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -378,13 +379,19 @@
 
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
+  .hero__bg {
+    /* Disable parallax on mobile — causes side-scroll on iOS */
+    transform: none !important;
+    inset: 0;
+  }
+
   .hero__content {
-    padding: 0 40px 80px;
+    padding: 0 28px 72px;
   }
 
   .stat-band {
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 60px 28px;
     gap: 40px;
   }
 
@@ -394,13 +401,17 @@
     align-self: auto;
   }
 
-  .text-section,
+  .text-section {
+    padding: 72px 28px;
+  }
+
   .text-section--dark {
-    padding: 80px 40px;
+    padding: 72px 28px;
   }
 
   .split-section {
     grid-template-columns: 1fr;
+    direction: ltr;
   }
 
   .split-section--reverse {
@@ -408,26 +419,38 @@
   }
 
   .split-section__image-wrap {
-    height: 360px;
+    height: 300px;
   }
 
   .split-section__text {
-    padding: 60px 40px;
+    padding: 52px 28px;
+  }
+
+  .fullwidth-image-section {
+    height: 380px;
+  }
+
+  .fullwidth-image-section__quote {
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
   }
 
   .feasibility-section {
-    padding: 80px 40px;
+    padding: 72px 28px;
   }
 
   .feasibility-section__grid {
     grid-template-columns: 1fr;
   }
 
+  .feasibility-card {
+    padding: 36px 28px;
+  }
+
   .closing-section {
-    padding: 100px 40px;
+    padding: 90px 28px;
   }
 
   .footer {
-    padding: 28px 40px;
+    padding: 28px 28px;
   }
 }

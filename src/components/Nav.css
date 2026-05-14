@@ -136,5 +136,13 @@
 
   .nav__links a {
     font-size: 1.1rem;
+    padding: 12px 24px;
+  }
+
+  .nav__hamburger {
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    align-items: center;
   }
 }
